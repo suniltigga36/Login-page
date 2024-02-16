@@ -1,0 +1,110 @@
+*{
+     margin: 0%;
+     padding: 0%;
+     border-style: border-box;
+}
+
+body{
+     justify-content: center;
+     display: flex;
+     background-color:gold;
+     align-items:center;
+}
+
+.container{
+     justify-content: center;
+     align-items: center;
+     background-color:white;
+     padding-top:50px;
+     padding-bottom:50px;
+     padding-left:40px;
+     padding-right:40px;
+     border: black 2px solid;
+     border-radius: 15px;
+}
+
+h1{
+     font-family:'Franklin Gothic Medium';
+}
+
+input{
+     margin:4px;
+     /* Remove border from input box */
+     border:none;
+     box-sizing: border-box;
+     border-bottom: 2px solid deeppink; 
+     -webkit-transition: 0.5s;
+     transition: 0.5;
+     outline:none;
+}
+
+#email{
+     font-size: large;
+     height: 30px;
+     width: 300px;
+     padding-left: 4px; 
+}
+
+#password{
+     font-size: large;
+     height: 30px;
+     width: 300px;
+     padding-left: 4px;
+}
+
+button{
+     margin: 5px;
+     border-radius: 5px;
+}
+
+.continue{ 
+     height: 30px;    
+     font-size: medium;
+     width: 300px; 
+     color: white;
+     font-weight: 600;
+     background-image: linear-gradient(to right,#51aa31 0%,
+     #43e043 51%,#41e95d 100%);
+}
+
+h2{
+     font-family: Arial;
+     font-size:small;
+     text-align: center;
+}
+
+.google{
+     height: 30px;  
+     width: 300px;
+     color: white;
+     font-weight: 600;
+     font-size: medium;
+     background-image: linear-gradient(to right,#d5dc00 0%,
+     #deea00 51%,#ddff00 100%);
+}
+
+.fb{
+     height: 30px;  
+     width: 300px;
+     color: white;
+     font-weight: 600;
+     font-size: medium;
+     background-image: linear-gradient(to right,#493acb 0%,
+     #5b51d0 51%,#6c5ec6 100%);
+}
+
+#google_icon{
+     align-items: center;
+     position: absolute;
+     right: 55%;
+     top: 66.9%;
+     color: white;
+}
+
+#facebook_icon{
+     align-items: center;
+     position: absolute;
+     right: 55.7%;
+     top: 75.1%;
+     color:white;
+}
